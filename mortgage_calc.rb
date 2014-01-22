@@ -27,21 +27,3 @@ puts "\n$%.2f per month" % [monthly_payment]
 
 # M = 		P * [i(1+1)**n/(1 + i)**n]
 
-# class Mortgage
-# 	def initialize
-# 		@principle = gets
-# 		@interest_rate = gets
-# 		@number_of_payments = gets
-# 	end
-
-# 	def calculate
-# 		# @monthly_payment = @principle * (@interest_rate * (1 + @interest_rate) ** @number_of_payments / (1 + @interest_rate) ** @number_of_payments - 1)
-# 		monthly_payment = principle * (interest_rate * (1 + interest_rate) ** number_of_payments) / ((1 + interest_rate) ** number_of_payments - 1)
-# 	end
-
-# 	def print_out_calc
-# 		puts "monthly_payment #{@monthly_payment}"
-# 	end
-
-# end
-
